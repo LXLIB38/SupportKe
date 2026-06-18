@@ -1,107 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SupportKE</title>
-
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-        }
-
-        body{
-            background:#0d0d0d;
-            color:white;
-            font-family:Arial, sans-serif;
-            min-height:100vh;
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            padding:20px;
-        }
-
-        .container{
-            width:100%;
-            max-width:600px;
-            text-align:center;
-            background:#161616;
-            padding:35px 25px;
-            border-radius:18px;
-            box-shadow:0 0 20px rgba(0,255,0,0.15);
-        }
-
-        h1{
-            font-size:2.2rem;
-            margin-bottom:15px;
-        }
-
-        h2{
-            margin-top:25px;
-            margin-bottom:10px;
-            color:#00cc44;
-        }
-
-        p{
-            font-size:1rem;
-            line-height:1.6;
-            margin-bottom:10px;
-        }
-
-        .email{
-            word-break:break-word;
-        }
-
-        .btn{
-            display:inline-block;
-            margin-top:25px;
-            padding:14px 30px;
-            background:#00b300;
-            color:white;
-            text-decoration:none;
-            border-radius:10px;
-            font-weight:bold;
-            transition:.3s;
-        }
-
-        .btn:hover{
-            background:#00d600;
-        }
-
-        .footer{
-            margin-top:25px;
-            color:#aaa;
-            font-size:0.9rem;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SupportKE</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="container">
-    <h1>SupportKE 💵</h1>
+<nav>
+    <div class="logo">💚 SUPPORTKE</div>
 
-    <p>Support Kenyan creators quickly and securely using M-PESA.</p>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Creators</a></li>
+        <li><a href="#">How It Works</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
 
-    <h2>Founder</h2>
-    <p>Bilal (LXLIB)</p>
-
-    <h2>Contact</h2>
-    <p class="email">bilaladow143@gmail.com</p>
-
-    <h2>Mission</h2>
-    <p>
-        Empower Kenyan creators to receive support easily from fans,
-        friends, and supporters.
-    </p>
-
-    <a href="#" class="btn">Support Now</a>
-
-    <div class="footer">
-        © 2026 SupportKE
+    <div>
+        <button class="login">Login</button>
+        <button class="signup">Sign Up</button>
     </div>
+</nav>
+
+<section class="hero">
+    <div class="hero-left">
+        <h1>
+            Support Kenyan Creators
+            with <span>M-PESA</span>
+        </h1>
+
+        <p>
+            The easiest way to send support directly to creators.
+        </p>
+
+        <button class="cta">
+            Start For Free
+        </button>
+    </div>
+
+    <div class="hero-right">
+        <div class="phone-card">
+            <h2>SupportKE</h2>
+            <p>Support creators instantly.</p>
+
+            <button>Support Now</button>
+        </div>
+    </div>
+</section>
+
+<section class="features">
+
+<div class="feature">
+<h3>Made For Kenya</h3>
+<p>Built around M-PESA payments.</p>
 </div>
+
+<div class="feature">
+<h3>Fast Payments</h3>
+<p>Money goes directly to creators.</p>
+</div>
+
+<div class="feature">
+<h3>Safe & Secure</h3>
+<p>Protected payment flow.</p>
+</div>
+
+<div class="feature">
+<h3>Grow Together</h3>
+<p>Empower creators to keep creating.</p>
+</div>
+
+</section>
+
+<section class="profile">
+
+<h2>Creator Profile</h2>
+
+<div class="profile-card">
+
+<img
+src="https://via.placeholder.com/300x300"
+alt="creator">
+
+<h3>LXLIB</h3>
+
+<p>eFootball Pro Player</p>
+
+<div class="amounts">
+<button>KSh 50</button>
+<button>KSh 100</button>
+<button>KSh 500</button>
+</div>
+
+<button class="pay">
+Pay with M-PESA
+</button>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 SupportKE • Made in Kenya 🇰🇪
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
