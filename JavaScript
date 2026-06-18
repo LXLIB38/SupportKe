@@ -1,0 +1,3 @@
+function support() {
+  alert("M-PESA support coming soon!");
+}
