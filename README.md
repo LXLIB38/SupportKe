@@ -1,4 +1,4 @@
-# ❤️ SupportKE 🇰🇪
+#  SupportKE💵
 
 Support Kenyan Creators with M-PESA
 
